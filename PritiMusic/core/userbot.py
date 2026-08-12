@@ -23,8 +23,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("https://t.me/betabot_hub")
-                await self.one.join_chat("https://t.me/betabot_support")
+                await self.one.join_chat("https://t.me/Music_Bot_Center_x")
+                await self.one.join_chat("https://t.me/Music_Bot_Center")
                 await self.one.join_chat("https://t.me/sukoon_s")
             except:
                 pass

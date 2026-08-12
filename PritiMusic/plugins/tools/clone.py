@@ -59,7 +59,7 @@ FOOTER = (
 try:
     from config import BOT_LINK
 except ImportError:
-    BOT_LINK = "https://t.me/SizzuMusicBot"
+    BOT_LINK = "https://t.me/Music_Clone1_Bot"
 
 C_BOT_COMMANDS = [
     {"command": "/clone", "description": "ᴄʟᴏɴᴇs ʏᴏᴜʀ ᴏᴡɴ ᴍᴜsɪᴄ ʙᴏᴛ"},

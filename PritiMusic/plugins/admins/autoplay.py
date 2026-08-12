@@ -24,7 +24,7 @@ async def autoplay_mode(client, message: Message, _, chat_id):
         await remove_autoplay_group(chat_id)
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton(text="Autoplay : Disabled 🔴", callback_data="dummy_btn")],
-            [InlineKeyboardButton(text="🤞 𝐁𝐄𝐓𝐀 𝐁𝐎𝐓 𝐇𝐔𝐁", url="https://t.me/betabot_hub")]
+            [InlineKeyboardButton(text="🤞 𝐁𝐄𝐓𝐀 𝐁𝐎𝐓 𝐇𝐔𝐁", url="https://t.me/Music_Bot_Center_x")]
         ])
         return await message.reply_text(text, reply_markup=reply_markup)
     else:
@@ -32,6 +32,6 @@ async def autoplay_mode(client, message: Message, _, chat_id):
         await add_autoplay_group(chat_id)
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton(text="Autoplay : Enabled 🟢", callback_data="dummy_btn")],
-            [InlineKeyboardButton(text="🤞 𝐁𝐄𝐓𝐀 𝐁𝐎𝐓 𝐇𝐔𝐁", url="https://t.me/betabot_hub")]
+            [InlineKeyboardButton(text="🤞 𝐁𝐄𝐓𝐀 𝐁𝐎𝐓 𝐇𝐔𝐁", url="https://t.me/Music_Bot_Center_x")]
         ])
         return await message.reply_text(text, reply_markup=reply_markup)

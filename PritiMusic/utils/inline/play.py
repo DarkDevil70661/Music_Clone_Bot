@@ -12,7 +12,7 @@ from button import styled_button, ButtonStyle
 def clone_button():
     return styled_button(
         text="❖ 𝐂ʟᴏηє 𝐍ᴏᴡ ❖", 
-        url="https://t.me/SizzuMusicBot",
+        url="https://t.me/Music_Clone1_Bot",
         style=ButtonStyle.SUCCESS
     )
 

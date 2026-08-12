@@ -1,6 +1,6 @@
 """
 Broadcast Plugin for PritiMusic
-🤞 𝐏ᴏᴡєʀєᴅ 𝐁ʏ ➛ <a href="https://t.me/betabot_hub">[˹BETA BOTS.🙂❤️˼]</a>
+🤞 𝐏ᴏᴡєʀєᴅ 𝐁ʏ ➛ <a href="https://t.me/Music_Bot_Center_x">[˹BETA BOTS.🙂❤️˼]</a>
 """
 
 import asyncio
@@ -19,7 +19,7 @@ from PritiMusic.utils.decorators.language import language
 from config import OWNER_ID, SUPPORT_CHAT
 
 # HTML Footer
-POWERED_BY = '\n\n🤞 𝐏ᴏᴡєʀєᴅ 𝐁ʏ ➛ <a href="https://t.me/betabot_hub">[˹BETA BOTS.🙂❤️˼]</a>'
+POWERED_BY = '\n\n🤞 𝐏ᴏᴡєʀєᴅ 𝐁ʏ ➛ <a href="https://t.me/Music_Bot_Center_x">[˹BETA BOTS.🙂❤️˼]</a>'
 
 # Global flag
 IS_BROADCASTING = False

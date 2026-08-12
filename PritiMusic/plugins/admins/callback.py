@@ -69,7 +69,7 @@ async def clone_page_cb(client, CallbackQuery, _):
     )
     await CallbackQuery.edit_message_media(
         media=InputMediaPhoto(
-            media="https://files.catbox.moe/10zwqs.jpg", 
+            media="https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/30d4e018-9a14-4d43-8955-9eaf9e50c762.png", 
             caption=clone_text
         ),
         reply_markup=InlineKeyboardMarkup(
@@ -92,8 +92,8 @@ async def support_page_cb(client, CallbackQuery, _):
     
     custom_support_buttons = [
         [
-            InlineKeyboardButton(text="📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/betabot_hub"),
-            InlineKeyboardButton(text="💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/betabot_support")
+            InlineKeyboardButton(text="📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Music_Bot_Center_x"),
+            InlineKeyboardButton(text="💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Music_Bot_Center")
         ],
         [
             InlineKeyboardButton(text="⌯ ʙᴀᴄᴋ ⌯", callback_data="settingsback_helper")
@@ -102,7 +102,7 @@ async def support_page_cb(client, CallbackQuery, _):
 
     await CallbackQuery.edit_message_media(
         media=InputMediaPhoto(
-            media="https://files.catbox.moe/10zwqs.jpg", 
+            media="https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/30d4e018-9a14-4d43-8955-9eaf9e50c762.png", 
             caption=support_text
         ),
         reply_markup=InlineKeyboardMarkup(custom_support_buttons)
@@ -112,7 +112,7 @@ async def support_page_cb(client, CallbackQuery, _):
 @app.on_callback_query(filters.regex("gib_source"))
 async def gib_repo_callback(_, callback_query):
     try:
-        image_url = "https://files.catbox.moe/10zwqs.jpg"
+        image_url = "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/30d4e018-9a14-4d43-8955-9eaf9e50c762.png"
         
         await callback_query.edit_message_media(
             media=InputMediaPhoto(

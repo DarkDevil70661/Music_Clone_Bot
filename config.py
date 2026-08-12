@@ -71,20 +71,20 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/nklcvg.jpg").split()
-HELP_IMG_URL = getenv("HELP_IMG_URL", "https://files.catbox.moe/dk92ep.jpg").split()
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/wktt8l.jpg").split()
+START_IMG_URL = getenv("START_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/7044b8ee-8eda-45fe-9152-36d8c90c38e5.jpg").split()
+HELP_IMG_URL = getenv("HELP_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/93c17667-88a9-48cf-90e3-5db11c8e1034.jpg").split()
+PING_IMG_URL = getenv("PING_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/65159577-4855-412e-95e7-f72324a37d7f.jpg").split()
 
-PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://files.catbox.moe/5qrx1b.jpg").split()
+PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/8c1e1ab0-fff6-40b7-b11a-bfcfdeb46da8.jpg").split()
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/6k3x66.jpg")
-TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "https://i.ibb.co/gL3ykkyh/play-music.jpg").split()
-TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL", "https://i.ibb.co/gL3ykkyh/play-music.jpg").split()
-STREAM_IMG_URL = getenv("STREAM_IMG_URL", "https://files.catbox.moe/10zwqs.jpg").split()
-SOUNCLOUD_IMG_URL = getenv("SOUNCLOUD_IMG_URL", "https://i.ibb.co/S4sPf3q8/soundcloud.jpg").split()
-YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL", "https://files.catbox.moe/6r97s4.jpg").split()
-SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL", "https://i.ibb.co/XZfMS8Db/spotify.jpg").split()
-SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL", "https://i.ibb.co/XZfMS8Db/spotify.jpg").split()
-SPOTIFY_PLAYLIST_IMG_URL = getenv("SPOTIFY_PLAYLIST_IMG_URL", "https://i.ibb.co/XZfMS8Db/spotify.jpg").split()
+TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/ae47c575-a948-4884-a2b8-3fb64dd5cbf6.jpg").split()
+TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/ae47c575-a948-4884-a2b8-3fb64dd5cbf6.jpg").split()
+STREAM_IMG_URL = getenv("STREAM_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/30d4e018-9a14-4d43-8955-9eaf9e50c762.png").split()
+SOUNCLOUD_IMG_URL = getenv("SOUNCLOUD_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/5f111ec5-af25-4c36-aebe-527414a74cd8.jpg").split()
+YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL", "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg").split()
+SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/65159577-4855-412e-95e7-f72324a37d7f.jpg").split()
+SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/65159577-4855-412e-95e7-f72324a37d7f.jpg").split()
+SPOTIFY_PLAYLIST_IMG_URL = getenv("SPOTIFY_PLAYLIST_IMG_URL", "https://i.supaimg.com/d8919cc0-dc9c-41e0-9c14-2ff75835e603/65159577-4855-412e-95e7-f72324a37d7f.jpg").split()
 
 def time_to_seconds(time):
     return sum(int(x) * 60**i for i, x in enumerate(reversed(str(time).split(":"))))
